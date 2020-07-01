@@ -1,0 +1,27 @@
+{
+  // "plugins": [
+  //   "@babel/plugin-transform-runtime" // 解决新的API问题
+  // ],
+  //presets属性告诉Babel要转换的源码使用了哪些新的语法特性，presets是一组Plugins的集合
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        /*
+        该参数的含义是：启用将ES6模块语法转换为另一种模块类型。将该设置为false就不会转换模块。默认为 'commonjs'.
+        该值可以有如下：
+        'amd' | 'umd' | 'systemjs' | 'commonjs' | false
+          */
+        "modules": false
+        // 编译的目标平台
+        // "target": {
+        //   'browsers': '> 5%'
+        // }
+      }
+    ]
+    /*
+    官方预设(preset), 有两种，一个是按年份(babel-preset-es2017)，一个是按阶段(babel-preset-stage-0)。
+    */
+    // "stage-2"
+  ]
+}

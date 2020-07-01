@@ -1,0 +1,19 @@
+{
+  "name": "biao-vue",
+  "version": "1.0.6",
+  "description": "quick in vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "biao-vue": "./bin/biao-vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/longlonglaobiao/biao-vue"
+  },
+  "keywords": [],
+  "author": "https://github.com/longlonglaobiao",
+  "license": "ISC"
+}
